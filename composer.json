@@ -1,0 +1,21 @@
+{
+    "name": "zendframework/zendframework",
+    "type": "library",
+    "description": "Zend Framework 2",
+    "keywords": ["framework","zf2"],
+    "homepage": "https://github.com/linkshare/zf2",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend\\":"library/",
+            "ZendTest\\": "tests/"
+        }
+    },
+    "bin": [
+        "bin/classmap_generator.php"
+    ]
+}
+
